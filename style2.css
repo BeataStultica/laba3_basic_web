@@ -1,0 +1,61 @@
+html, body, h2 {
+    padding: 0;
+    margin: 0;
+}
+h2{
+    height: 100%;
+    text-align: center;
+    
+}
+html, body{
+    width: 100%;
+    height: 120%;
+}
+#container{
+    /*width: 55%;
+    height: 90.36%;
+    margin: 8.3333%;
+    margin-left: auto;
+    margin-right: auto;
+    */
+    width: 1000px;
+    height: 800px;
+    margin: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+#bottom_flex{
+    height: 65.625%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+#text{
+    width: 100%;
+    height: 18.75%;
+    background-color: aqua;
+}
+#image_up{
+    width: 100%;
+    height: 15.625%;
+    background-color: red;
+    margin-bottom: 0%;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+#image_down{
+    width: 75%;
+    height: 100%;
+    background-color: gold;
+}
+#text_down{
+    width: 25%;
+    height: 100%;
+    background-color: teal;
+}
